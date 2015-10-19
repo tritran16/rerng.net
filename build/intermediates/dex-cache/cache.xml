@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/libs/android-query-full.0.25.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="646ad6432a4da6a827e74ce64149c719ce7e86eb">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/android-query-full.0.25.10-f1dfc763282f117f84c7ffeb1a56a0982df0173c.jar" />
+    </item>
+    <item
+        jar="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/exploded-aar/Android-Studio/viewPagerIndicatorLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0c5526ee8d269b45c923ba72113ec5892b917c95">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/classes-87f0c9675fa3be9ed9b651543e7e563088b1dd56.jar" />
+    </item>
+    <item
+        jar="/Users/trandinhtri/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/support-v4-19.1.0-3f84ee8662967199bbb090afd04f6c87a662bd45.jar" />
+    </item>
+    <item
+        jar="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-428ba092cd258572068a7c8e8b50e8a6d08c0e47.jar" />
+    </item>
+    <item
+        jar="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-2fedf197b6448dd6557dabc87c3c62ad49adb2ae.jar" />
+    </item>
+    <item
+        jar="/Users/trandinhtri/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/build/intermediates/pre-dexed/debug/gson-2.1-5cf9bc3c9a92265e203716a17a0deb96e395e106.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/image_display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+    	android:scaleType="fitCenter"        
+        android:contentDescription="" />
+
+</RelativeLayout><!-- From: file:/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/src/main/res/layout/vp_image.xml -->

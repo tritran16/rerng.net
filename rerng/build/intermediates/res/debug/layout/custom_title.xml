@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView 
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    android:id="@+id/title"
+	    android:gravity="center"
+	    android:textSize="22sp"
+	    android:text="Custom Title"
+	    />
+</RelativeLayout>
+<!-- From: file:/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/src/main/res/layout/custom_title.xml -->

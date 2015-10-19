@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="1dp"
+    android:paddingTop="5dp" >   
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"	    
+	    > 
+	
+	   		<net.rerng.controls.ExpandableHeightGridView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+         />
+	        
+	    
+	</LinearLayout>
+<ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        />
+ <TextView 
+	     android:id="@+id/layoutNoItems"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" 
+	     android:layout_centerInParent="true"
+	     android:text="No film found."
+	     android:textSize="16sp"
+	     android:visibility="gone"
+	     />
+</RelativeLayout><!-- From: file:/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/src/main/res/layout/fragment_group_films.xml -->

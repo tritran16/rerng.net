@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.rerng.FilmActivity" >
+
+    <!-- Search Widget -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="Search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView"/>
+    
+    
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/ic_action_help"
+          android:title="Help" 
+          android:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/src/main/res/menu/film.xml -->

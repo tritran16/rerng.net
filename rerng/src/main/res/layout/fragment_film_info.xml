@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="1dp"
+    android:paddingTop="5dp" >   
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"	    
+	    > 
+			<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:padding="7dp"	    
+		    > 
+	   		<TextView 
+	   		    android:id="@+id/txtFilmName"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:text="50 sac thai"
+	   		    android:textColor="@color/film_name"
+	   		    />
+	        </LinearLayout>
+	        
+			
+			<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		     android:padding="7dp"		    
+		    > 
+
+	   		<TextView
+	   		    android:layout_width="0dp"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_weight="0.04"
+	   		    android:textStyle="bold"
+	   		    android:text="Actors:" />
+
+	   		<TextView
+	   		    android:id="@+id/txtActor"
+	   		    android:layout_width="fill_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:text="abc; def" 
+	   		    android:paddingLeft="10dp"
+	   		    />
+
+	        </LinearLayout>
+	        
+			<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		     android:padding="7dp"		    
+		    > 
+	   		<TextView
+	   		    android:layout_width="0dp"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_weight="0.04"
+	   		    android:text="Director(s)"
+	   		    android:textStyle="bold"
+	   		     />
+
+	   		<TextView
+	   		    android:id="@+id/txtDirector"
+	   		    android:layout_width="fill_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:text="abc; def" 
+	   		    android:paddingLeft="10dp"
+	   		    />
+	        </LinearLayout>
+	        <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"	
+		     android:padding="7dp"
+			android:textStyle="bold"
+		    > 
+	   		<TextView
+	   		    android:layout_width="0dp"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_weight="0.04"
+	   		    android:text="Writer" 
+	   		     android:textStyle="bold"
+	   		    />
+
+	   		<TextView
+	   		    android:id="@+id/txtWriter"
+	   		    android:layout_width="fill_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:text="abc; def" 
+	   		    android:paddingLeft="10dp"
+	   		    />
+	        </LinearLayout>
+	        <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:padding="10dp"	
+		    android:layout_margin="5dp"    
+		    android:background="#d0d0d0"
+		    > 
+	   		<TextView 
+	   		    android:id="@+id/txtFilmDesc"
+	   		    android:layout_width="match_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:text="50 sac thai la bo film"
+	   		    android:textColor="@color/film_name"
+	   		    android:paddingLeft="10dp"
+	   		    />
+	        </LinearLayout>
+	        
+	    
+	</LinearLayout>
+<ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        />
+ 
+</RelativeLayout>

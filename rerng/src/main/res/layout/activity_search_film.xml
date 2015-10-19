@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="1dp"
+    android:paddingTop="5dp" >   
+
+    <!-- <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtResult"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical|fill_vertical"
+        android:layout_marginTop="5dip"
+        android:layout_weight=".6"
+        android:drawableLeft="@drawable/ic_find_grey"
+        android:drawablePadding="5dp"
+        android:hint="Enter keyword"
+        android:imeOptions="actionSearch"
+        android:singleLine="true" /> -->
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"        
+        android:id="@+id/txtResult"
+        android:padding="5dp"
+        android:paddingTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/film_name"
+        android:text="Total Results: 0 films"
+        android:visibility="gone"
+        />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_below="@+id/txtResult"   
+	    > 
+	
+	   		<net.rerng.controls.ExpandableHeightGridView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+         />
+	        
+	    
+	</LinearLayout>
+<ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        />
+ 
+
+
+</RelativeLayout>

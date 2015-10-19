@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+   <!-- 
+
+    <RelativeLayout
+        android:id="@+id/img_slideshow_layout"
+        android:layout_width="fill_parent"
+         android:layout_height="200dp" 
+        android:layout_marginTop="10dp"
+        android:background="@drawable/img_border" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/img_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/indicator"
+            android:background="#88343434"
+            android:ellipsize="end"
+            android:paddingBottom="2dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="2dp"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:textColor="#ededed" />
+
+        <net.rerng.controls.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dip" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/div_a"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/img_slideshow_layout"
+        android:background="@color/view_divider_color" />
+
+    <View
+        android:id="@+id/div_b"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@+id/div_a"
+        android:background="@color/list_divider" /> -->
+    
+    <ListView
+        android:id="@+id/groupListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/div_b"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+        
+    </ListView>
+
+</RelativeLayout><!-- From: file:/Users/trandinhtri/Documents/src/src/Android-Studio/rerng/src/main/res/layout/fragment_home.xml -->
